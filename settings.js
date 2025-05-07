@@ -16,28 +16,28 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 //--------------------[ SESSION ID ]----------------------//
 
-global.SESSION_ID = process.env.SESSION_ID || '' 
+global.SESSION_ID = process.env.SESSION_ID || 'KANGO~d5w3RRZB#8QXyuMOajm76j6iwTx5zd8ZQagYba5qCCd7-a2M5by4' 
 //Enter your 𝙆𝘼𝙉𝙂𝙊-𝙓𝙈𝘿 session id here; must start with KANGO~
 
 //--------------------[ BOT NAME ]----------------------//
 
-global.botname = process.env.BOT_NAME || '𝙆𝘼𝙉𝙂𝙊-𝙓𝙈𝘿' 
+global.botname = process.env.BOT_NAME || '𝐗-𝐁𝐥𝐨𝐨𝐦' 
 
 //-----------------[ OWNER NUMBER ]------------------//
 
-global.ownernumber = process.env.OWNER_NUMBER || '233509977126' 
+global.ownernumber = process.env.OWNER_NUMBER || '919310822717' 
 
 //-----------------[ OWNER NAME ]------------------//
 
-global.ownername = process.env.OWNER_NAME || 'Hector Manuel' 
+global.ownername = process.env.OWNER_NAME || '𝐒𝐭𝐫𝐚𝐧𝐠𝐞𝐫 𖤍' 
 
 //------------[ STICKER PACKNAME ]-----------------//
 
-global.packname = process.env.STICKER_PACK_NAME || "𝙆𝘼𝙉𝙂𝙊-𝙓𝙈𝘿" 
+global.packname = process.env.STICKER_PACK_NAME || "𝐗-𝐁𝐥𝐨𝐨𝐦" 
 
 //--------------[ STICKER AUTHOR NAME ]------------//
 
-global.author = process.env.STICKER_AUTHOR_NAME || "Hector" 
+global.author = process.env.STICKER_AUTHOR_NAME || "By 𝐒𝐭𝐫𝐚𝐧𝐠𝐞𝐫 𖤍" 
 
 //----------------------[ TIMEZONE ]--------------------//
 
@@ -64,7 +64,7 @@ global.wm = process.env.GL_WM || "> ©𝙆𝘼𝙉𝙂𝙊-𝙓𝙈𝘿"
 
 global.mess = { 
   done: '*Done*', 
-  success: '> © 𝙆𝘼𝙉𝙂𝙊-𝙓𝙈𝘿', 
+  success: '> © 𝐗-𝐁𝐥𝐨𝐨𝐦', 
   owner: `*You don't have permission to use this command!*`, 
   group: '*This feature becomes available when you use it in a group!*', 
   admin: '*You’ll unlock this feature with me as an admin!*', 
